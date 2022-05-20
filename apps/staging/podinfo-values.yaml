@@ -10,10 +10,10 @@ spec:
   test:
     enable: false
   values:
-    replicaCount: 3
+    replicaCount: 5
     ingress:
       hosts:
-        - host: podinfo.staging.net
+        - host: podinfo.staging
           paths:
-            - path: /other
+            - path: /
               pathType: ImplementationSpecific
