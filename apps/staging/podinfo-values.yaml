@@ -13,7 +13,7 @@ spec:
     replicaCount: 3
     ingress:
       hosts:
-        - host: podinfo.staging
+        - host: podinfo.staging.net
           paths:
-            - path: /
+            - path: /other
               pathType: ImplementationSpecific
